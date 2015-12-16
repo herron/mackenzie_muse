@@ -18,6 +18,8 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'paperclip', '~> 4.3.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+# thin web server for heroku
+gem 'thin', '~> 1.6', '>= 1.6.4'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
